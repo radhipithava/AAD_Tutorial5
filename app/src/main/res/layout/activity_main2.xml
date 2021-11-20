@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtfname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name : "
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/txtlname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name : "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_below="@id/txtfname"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtuname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username : "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_below="@id/txtlname"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password : "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_below="@id/txtuname"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtbranch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Branch : "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_below="@id/txtpass"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtcity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City : "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_below="@id/txtbranch"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtgender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender : "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_below="@id/txtcity"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status : "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_below="@id/txtgender"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

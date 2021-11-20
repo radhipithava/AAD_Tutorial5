@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Registration Form</string>
+    <string-array name="city">
+        <item>Select</item>
+        <item>Ahemdabad</item>
+        <item>Bhavnagar</item>
+        <item>Baroda</item>
+        <item>Surat</item>
+    </string-array>
+</resources>
